@@ -1,0 +1,40 @@
+## --- Swift / SPM (Swift Package Manager) ---
+.build/
+Packages/
+Package.resolved
+.swiftpm/xcode
+.swiftpm/configuration
+
+## --- Xcode (如果你偶尔使用 Xcode 打开项目) ---
+build/
+DerivedData/
+*.xcuserdata
+*.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+
+## --- VSCode Specific ---
+.vscode/
+!*.code-workspace
+.history/
+
+## --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+## --- Testing ---
+*.swiftdoc
+*.swiftmodule
+*.swiftsourceinfo
+
+## --- Dependencies (Optional) ---
+# 如果你使用 CocoaPods
+Pods/
+# 如果你使用 Carthage
+Carthage/Build/
